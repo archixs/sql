@@ -12,3 +12,10 @@ select * from
 orders o
 left join customers c
 using(customer_id);
+
+-- uzdevums 
+
+select * from 
+products p 
+left join order_items oi
+using (product_id)
