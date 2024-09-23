@@ -1,3 +1,8 @@
 select * from mysql.user;
 
-create user 'php_app' identified by '1234';
+
+-- create user 'php_app' identified by '1234';
+
+-- drop user 'php_app';
+
+create user php_app@localHost identified by '1234';
