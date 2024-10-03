@@ -6,3 +6,7 @@ select * from mysql.user;
 -- drop user 'php_app';
 
 create user php_app@localHost identified by '1234';
+
+grant all privileges on sql_hr.* to php_app@localHost;
+
+flush privileges;
